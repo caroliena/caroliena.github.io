@@ -1,3 +1,18 @@
+@media (max-width: 1024px) {
+  .copyright span {
+    display: block;
+  }
+  .copyright span:last-of-type:before {
+    display: none;
+  }
+  footer {
+    text-align: center;
+  }
+  .float-left,
+  .float-right {
+    float: none !important;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .section {
     padding: 60px 0 45px;
@@ -434,12 +449,6 @@
   }
   .copyright span {
     display: block;
-  }
-  .copyright span:last-of-type:before {
-    display: none;
-  }
-  .copyright span:last-of-type {
-    margin-bottom: 2rem;
   }
   .copyright p {
     line-height: 26px;
