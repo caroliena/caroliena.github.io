@@ -650,8 +650,12 @@ button:focus {
   line-height: 26px;
 }
 
-.hero-area .contents .btn {
+.hero-area .contents .btn:first-of-type {
   margin-top: 40px;
+}
+
+.hero-area .contents .btn {
+  margin-top: 10px;
   margin-right: 20px;
   text-transform: uppercase;
 }
