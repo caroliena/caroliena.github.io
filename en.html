@@ -51,14 +51,7 @@
 
       gtag('config', 'UA-85805031-2');
     </script>
-    <script>
-      var captureOutboundLink = function(url) {
-         ga('send', 'event', 'outbound', 'click', url, {
-           'transport': 'beacon',
-           'hitCallback': function(){document.location = url;}
-         });
-      }
-      </script> 
+    
   </head>
   
   <body>
@@ -103,10 +96,10 @@
                 <p>The Xplore Bruges app has been offline since February 1st. Some tours have been moved to the Heritage App of FARO. 
                   This app is available free of charge for Android via Google Play or for Apple via Apple Store.</p>
                 <div class="header-button">
-                  <a target="_blank" href="https://play.google.com/store/apps/details?id=be.faro.erfgoedapp" class="btn btn-border-filled" onclick="captureOutboundLink('https://play.google.com/store/apps/details?id=be.faro.erfgoedapp'); return false;">Download on Google Play</a>
-                  <a target="_blank" href="https://apps.apple.com/be/app/erfgoedapp/id998845080" class="btn btn-border-filled" onclick="captureOutboundLink('https://apps.apple.com/be/app/erfgoedapp/id998845080'); return false;">Download on Apple Store</a>
+                  <a target="_blank" href="https://play.google.com/store/apps/details?id=be.faro.erfgoedapp" class="btn btn-border-filled">Download on Google Play</a>
+                  <a target="_blank" href="https://apps.apple.com/be/app/erfgoedapp/id998845080" class="btn btn-border-filled">Download on Apple Store</a>
                 </div>
-                <a style="color:white; display: inline-block; border-bottom: 1px solid white; margin: 15px 32px;" href="https://heritageapp.be/" onclick="captureOutboundLink('https://heritageapp.be/'); return false;">More information about the Heritage App</a>
+                <a style="color:white; display: inline-block; border-bottom: 1px solid white; margin: 15px 32px;" href="https://erfgoedapp.be/">More information about the Heritage App</a>
               </div>
             </div>
           </div> 
